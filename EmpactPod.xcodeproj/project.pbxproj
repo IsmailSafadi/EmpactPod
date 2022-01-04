@@ -11,6 +11,17 @@
 		65E751C0278461800046AF51 /* EmpactPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E751B5278461800046AF51 /* EmpactPod.framework */; };
 		65E751C5278461800046AF51 /* EmpactPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E751C4278461800046AF51 /* EmpactPodTests.swift */; };
 		65E751C6278461800046AF51 /* EmpactPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E751B8278461800046AF51 /* EmpactPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65E751E8278461990046AF51 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E751E7278461990046AF51 /* Tests_iOS.swift */; };
+		65E751EA278461990046AF51 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E751E9278461990046AF51 /* Tests_iOSLaunchTests.swift */; };
+		65E751F4278461990046AF51 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E751F3278461990046AF51 /* Tests_macOS.swift */; };
+		65E751F6278461990046AF51 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E751F5278461990046AF51 /* Tests_macOSLaunchTests.swift */; };
+		65E751F7278461990046AF51 /* EmpactPodExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E751D0278461990046AF51 /* EmpactPodExampleApp.swift */; };
+		65E751F8278461990046AF51 /* EmpactPodExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E751D0278461990046AF51 /* EmpactPodExampleApp.swift */; };
+		65E751F9278461990046AF51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E751D1278461990046AF51 /* ContentView.swift */; };
+		65E751FA278461990046AF51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E751D1278461990046AF51 /* ContentView.swift */; };
+		65E751FB278461990046AF51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65E751D2278461990046AF51 /* Assets.xcassets */; };
+		65E751FC278461990046AF51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65E751D2278461990046AF51 /* Assets.xcassets */; };
+		65E7520A278461A70046AF51 /* EmpactPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E75209278461A70046AF51 /* EmpactPod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,6 +32,20 @@
 			remoteGlobalIDString = 65E751B4278461800046AF51;
 			remoteInfo = EmpactPod;
 		};
+		65E751E4278461990046AF51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65E751AC278461800046AF51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65E751D6278461990046AF51;
+			remoteInfo = "EmpactPodExample (iOS)";
+		};
+		65E751F0278461990046AF51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65E751AC278461800046AF51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65E751DB278461990046AF51;
+			remoteInfo = "EmpactPodExample (macOS)";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +54,19 @@
 		65E751B9278461800046AF51 /* EmpactPod.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EmpactPod.docc; sourceTree = "<group>"; };
 		65E751BF278461800046AF51 /* EmpactPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmpactPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65E751C4278461800046AF51 /* EmpactPodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpactPodTests.swift; sourceTree = "<group>"; };
+		65E751D0278461990046AF51 /* EmpactPodExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpactPodExampleApp.swift; sourceTree = "<group>"; };
+		65E751D1278461990046AF51 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		65E751D2278461990046AF51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65E751D7278461990046AF51 /* EmpactPodExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmpactPodExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E751DC278461990046AF51 /* EmpactPodExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmpactPodExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E751DE278461990046AF51 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		65E751E3278461990046AF51 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E751E7278461990046AF51 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		65E751E9278461990046AF51 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		65E751EF278461990046AF51 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E751F3278461990046AF51 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		65E751F5278461990046AF51 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		65E75209278461A70046AF51 /* EmpactPod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpactPod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +85,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		65E751D4278461990046AF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E751D9278461990046AF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E751E0278461990046AF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E751EC278461990046AF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +121,10 @@
 			children = (
 				65E751B7278461800046AF51 /* EmpactPod */,
 				65E751C3278461800046AF51 /* EmpactPodTests */,
+				65E751CF278461990046AF51 /* Shared */,
+				65E751DD278461990046AF51 /* macOS */,
+				65E751E6278461990046AF51 /* Tests iOS */,
+				65E751F2278461990046AF51 /* Tests macOS */,
 				65E751B6278461800046AF51 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +134,10 @@
 			children = (
 				65E751B5278461800046AF51 /* EmpactPod.framework */,
 				65E751BF278461800046AF51 /* EmpactPodTests.xctest */,
+				65E751D7278461990046AF51 /* EmpactPodExample.app */,
+				65E751DC278461990046AF51 /* EmpactPodExample.app */,
+				65E751E3278461990046AF51 /* Tests iOS.xctest */,
+				65E751EF278461990046AF51 /* Tests macOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +145,7 @@
 		65E751B7278461800046AF51 /* EmpactPod */ = {
 			isa = PBXGroup;
 			children = (
+				65E75209278461A70046AF51 /* EmpactPod.swift */,
 				65E751B8278461800046AF51 /* EmpactPod.h */,
 				65E751B9278461800046AF51 /* EmpactPod.docc */,
 			);
@@ -83,6 +158,42 @@
 				65E751C4278461800046AF51 /* EmpactPodTests.swift */,
 			);
 			path = EmpactPodTests;
+			sourceTree = "<group>";
+		};
+		65E751CF278461990046AF51 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				65E751D0278461990046AF51 /* EmpactPodExampleApp.swift */,
+				65E751D1278461990046AF51 /* ContentView.swift */,
+				65E751D2278461990046AF51 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		65E751DD278461990046AF51 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				65E751DE278461990046AF51 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		65E751E6278461990046AF51 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				65E751E7278461990046AF51 /* Tests_iOS.swift */,
+				65E751E9278461990046AF51 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		65E751F2278461990046AF51 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				65E751F3278461990046AF51 /* Tests_macOS.swift */,
+				65E751F5278461990046AF51 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +246,76 @@
 			productReference = 65E751BF278461800046AF51 /* EmpactPodTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		65E751D6278461990046AF51 /* EmpactPodExample (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65E751FD278461990046AF51 /* Build configuration list for PBXNativeTarget "EmpactPodExample (iOS)" */;
+			buildPhases = (
+				65E751D3278461990046AF51 /* Sources */,
+				65E751D4278461990046AF51 /* Frameworks */,
+				65E751D5278461990046AF51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EmpactPodExample (iOS)";
+			productName = "EmpactPodExample (iOS)";
+			productReference = 65E751D7278461990046AF51 /* EmpactPodExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65E751DB278461990046AF51 /* EmpactPodExample (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65E75200278461990046AF51 /* Build configuration list for PBXNativeTarget "EmpactPodExample (macOS)" */;
+			buildPhases = (
+				65E751D8278461990046AF51 /* Sources */,
+				65E751D9278461990046AF51 /* Frameworks */,
+				65E751DA278461990046AF51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EmpactPodExample (macOS)";
+			productName = "EmpactPodExample (macOS)";
+			productReference = 65E751DC278461990046AF51 /* EmpactPodExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65E751E2278461990046AF51 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65E75203278461990046AF51 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				65E751DF278461990046AF51 /* Sources */,
+				65E751E0278461990046AF51 /* Frameworks */,
+				65E751E1278461990046AF51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65E751E5278461990046AF51 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 65E751E3278461990046AF51 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		65E751EE278461990046AF51 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65E75206278461990046AF51 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				65E751EB278461990046AF51 /* Sources */,
+				65E751EC278461990046AF51 /* Frameworks */,
+				65E751ED278461990046AF51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65E751F1278461990046AF51 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 65E751EF278461990046AF51 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -150,6 +331,20 @@
 					};
 					65E751BE278461800046AF51 = {
 						CreatedOnToolsVersion = 13.2.1;
+					};
+					65E751D6278461990046AF51 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					65E751DB278461990046AF51 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					65E751E2278461990046AF51 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 65E751D6278461990046AF51;
+					};
+					65E751EE278461990046AF51 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 65E751DB278461990046AF51;
 					};
 				};
 			};
@@ -168,6 +363,10 @@
 			targets = (
 				65E751B4278461800046AF51 /* EmpactPod */,
 				65E751BE278461800046AF51 /* EmpactPodTests */,
+				65E751D6278461990046AF51 /* EmpactPodExample (iOS) */,
+				65E751DB278461990046AF51 /* EmpactPodExample (macOS) */,
+				65E751E2278461990046AF51 /* Tests iOS */,
+				65E751EE278461990046AF51 /* Tests macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +386,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		65E751D5278461990046AF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E751FB278461990046AF51 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E751DA278461990046AF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E751FC278461990046AF51 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E751E1278461990046AF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E751ED278461990046AF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -195,6 +424,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65E751BA278461800046AF51 /* EmpactPod.docc in Sources */,
+				65E7520A278461A70046AF51 /* EmpactPod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +436,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		65E751D3278461990046AF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E751F9278461990046AF51 /* ContentView.swift in Sources */,
+				65E751F7278461990046AF51 /* EmpactPodExampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E751D8278461990046AF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E751FA278461990046AF51 /* ContentView.swift in Sources */,
+				65E751F8278461990046AF51 /* EmpactPodExampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E751DF278461990046AF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E751EA278461990046AF51 /* Tests_iOSLaunchTests.swift in Sources */,
+				65E751E8278461990046AF51 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E751EB278461990046AF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E751F6278461990046AF51 /* Tests_macOSLaunchTests.swift in Sources */,
+				65E751F4278461990046AF51 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -213,6 +479,16 @@
 			isa = PBXTargetDependency;
 			target = 65E751B4278461800046AF51 /* EmpactPod */;
 			targetProxy = 65E751C1278461800046AF51 /* PBXContainerItemProxy */;
+		};
+		65E751E5278461990046AF51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65E751D6278461990046AF51 /* EmpactPodExample (iOS) */;
+			targetProxy = 65E751E4278461990046AF51 /* PBXContainerItemProxy */;
+		};
+		65E751F1278461990046AF51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65E751DB278461990046AF51 /* EmpactPodExample (macOS) */;
+			targetProxy = 65E751F0278461990046AF51 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -398,6 +674,7 @@
 		65E751CD278461800046AF51 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P2Y4F6YSVL;
@@ -414,6 +691,7 @@
 		65E751CE278461800046AF51 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P2Y4F6YSVL;
@@ -424,6 +702,197 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65E751FE278461990046AF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2Y4F6YSVL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ismail.safadi.EmpactPodExample;
+				PRODUCT_NAME = EmpactPodExample;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65E751FF278461990046AF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2Y4F6YSVL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ismail.safadi.EmpactPodExample;
+				PRODUCT_NAME = EmpactPodExample;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65E75201278461990046AF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2Y4F6YSVL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ismail.safadi.EmpactPodExample;
+				PRODUCT_NAME = EmpactPodExample;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		65E75202278461990046AF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2Y4F6YSVL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ismail.safadi.EmpactPodExample;
+				PRODUCT_NAME = EmpactPodExample;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		65E75204278461990046AF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2Y4F6YSVL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ismail.safadi.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "EmpactPodExample (iOS)";
+			};
+			name = Debug;
+		};
+		65E75205278461990046AF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2Y4F6YSVL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ismail.safadi.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "EmpactPodExample (iOS)";
+			};
+			name = Release;
+		};
+		65E75207278461990046AF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2Y4F6YSVL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ismail.safadi.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "EmpactPodExample (macOS)";
+			};
+			name = Debug;
+		};
+		65E75208278461990046AF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2Y4F6YSVL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ismail.safadi.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "EmpactPodExample (macOS)";
 			};
 			name = Release;
 		};
@@ -453,6 +922,42 @@
 			buildConfigurations = (
 				65E751CD278461800046AF51 /* Debug */,
 				65E751CE278461800046AF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65E751FD278461990046AF51 /* Build configuration list for PBXNativeTarget "EmpactPodExample (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E751FE278461990046AF51 /* Debug */,
+				65E751FF278461990046AF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65E75200278461990046AF51 /* Build configuration list for PBXNativeTarget "EmpactPodExample (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E75201278461990046AF51 /* Debug */,
+				65E75202278461990046AF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65E75203278461990046AF51 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E75204278461990046AF51 /* Debug */,
+				65E75205278461990046AF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65E75206278461990046AF51 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E75207278461990046AF51 /* Debug */,
+				65E75208278461990046AF51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
